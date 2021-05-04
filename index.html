@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <section>
+            <h1>Photo Gallery</h1>
+            <img id="photogallery" src="avengerssymbol.jpg">
+        </section>
+        <br><br>
+        <hr style:"width:100%;">
+        <section id="gridgallery">
+            <h1>Grid Gallery</h1>
+            <br>
+            <div class="row">
+                <img class="picture" src="captainamerica.jpg">
+                <img class="picture" src="blackpanther.jpg">
+                <img class="picture" src="Hulk.jpg">
+                <img class="picture" src="thanos.jpg">
+                <br><br>
+            </div>
+            <div class="row">
+                <img class="picture" src="ironman.jpg">
+                <img class="picture" src="thor.jpg">
+                <img class="picture" src="gamora.jpg">
+                <img class="picture" src="captainmarvel.jpg">
+                <br><br>
+                </div>
+            
+            
+        </section>
+        <br><br>
+        <hr style="width:100%;">
+        <section id="slidegallery">
+
+            <h2>Slide Gallery</h2>
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+
+                            <img src="captainamerica.jpg">
+
+                            <div class="carousel-content">
+                                <p>Captain America</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="blackpanther.jpg">
+
+                            <div class="carousel-content">
+                                <p>Black Panther</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="Hulk.jpg">
+
+                            <div class="carousel-content">
+                                <p>Hulk</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="ironman.jpg">
+
+                            <div class="carousel-content">
+                                <p>Iron Man</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="thanos.jpg">
+
+                            <div class="carousel-content">
+                                <p>Thanos</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="thor.jpg">
+
+                            <div class="carousel-content">
+                                <p>Thor</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="gamora.jpg">
+
+                            <div class="carousel-content">
+                                <p>Gamora</p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+
+                            <img src="captainmarvel.jpg">
+
+                            <div class="carousel-content">
+                                <p>Captain Marvel</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+
+        </section>
+
+
+
+</body>
+
+</html>
